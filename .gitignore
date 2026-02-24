@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 實驗輸出
+saas_results/
+saas_*/
+ablation_results*/
+
+# 大型資料（可從原專案複製）
+# test_data/3dircadb1_1_nifti/*.nii.gz
