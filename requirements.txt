@@ -1,24 +1,24 @@
-# Organ-Aware MedGemma 1.5 — 肝臟病灶偵測 Pipeline
+# Organ-Aware MedGemma 1.5 — Liver Lesion Detection Pipeline
 # Python >= 3.10
 
-# PyTorch: 請依 CUDA 版本另行安裝，例如：
+# PyTorch: Install according to your CUDA version, for example:
 #   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
 
-# 模型與推論
+# Model and Inference
 transformers>=4.52
 accelerate
 bitsandbytes
 huggingface-hub
 
-# 醫學影像
+# Medical Imaging
 nibabel
 scikit-image
 scipy
 
-# 視覺化與通用
+# Visualization and Utilities
 numpy
 matplotlib
 Pillow
 
-# Organ-Aware Pipeline（使用 TotalSegmentator 時需要）
+# Organ-Aware Pipeline (required when using TotalSegmentator)
 TotalSegmentator
